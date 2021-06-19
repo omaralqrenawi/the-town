@@ -1,0 +1,359 @@
+* {
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+   background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+/* backgruond*/
+.cover  {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.cover .fit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+
+/* section 1*/
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 0 150px;
+    list-style: none;
+    z-index: 2;
+    font-size: 25px;
+    color: white;
+}
+.container .logo {
+    width:15%;
+}
+.container a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.container .head a:first-child {
+    text-decoration: none;
+    color: blue;
+}
+.text .text1 {
+    position: absolute; 
+    top: 50%;
+    left: 40%; 
+    color:white;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text .text1 h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 1;
+    text-shadow:  9px 3px 9px black;
+}
+.text .text1 p {
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 8px 3px 8px black;
+}
+
+
+
+/*section 2*/
+.part1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    margin-top: 120px;
+}
+.introduction {
+    position: relative;
+    top: 50%;
+    justify-content: center;
+
+}
+.introduction h1 {
+    margin-top: 70px;
+    font-size: 50px;  
+    margin-bottom: 30px;  
+    color: blue;
+    justify-content: center;
+}
+.introduction p {
+    font-size: 20px;
+    padding: 10px;
+
+}
+.introduction span {
+    color: blue;
+}
+.introduction a {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    text-transform: none;
+    border: none;
+    width: 150px;
+}
+.part1 .img {
+    width: 50%;
+}
+
+
+
+/*section 3*/
+.part2 {
+    display: flex;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    flex-direction: row; 
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.part2 h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.part2 span {
+    text-align: center;
+
+    color: blue;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+.part2 p {
+    text-align:left;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+
+
+/*section 4*/
+.our {
+    margin-bottom: 100px;
+}
+.our .work h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.our .work p {
+    text-align: center;
+
+}
+
+
+
+/*section 5*/
+.pic > div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.pic > div > div {
+    width: 150px;
+    height: 250px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.pic .pic1 {
+    background-image: url(gallery-img-01.jpg);
+}
+.pic .pic2 {
+    background-image: url(gallery-img-02.jpg);
+}
+.pic .pic3 {
+    background-image: url( gallery-img-03.jpg);
+}
+.pic .pic4 {
+    background-image: url(gallery-img-04.jpg);
+}
+.pic .pic5 {
+    background-image: url(ssgallery-img-05.jpg);
+}
+
+
+
+/*section 6*/
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(the-town-bg-02.jpg);
+    background-position: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.contact h1 {
+    width: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 176px 0 150px;
+    list-style: none;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+}
+
+.contact hr {
+    border: 1px solid white;
+    left: 150px;
+   
+}
+.contact .line1 {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    display: inline-block;
+    width: 1000px;
+    height: 2px;
+    background-color: white;
+}
+.contact .line2 {
+    position: absolute;
+    top: 122px;
+    left: 150px;
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    background-color: white;
+}
+
+.contact p {
+    font-size: 17px;
+    color: white;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 150px 0 150px;
+    display: flex;
+    text-align: left;
+    line-height: 2;
+}
+.contact .phone  {
+    width: 20%;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display:block;
+    justify-content: space-between;
+    padding: 20px 150px 0 150px;
+    list-style: none;
+    z-index: 2;
+    font-size: 20px;
+    color: white;
+}
+.contact .email {
+    width: 20%;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 0 150px;
+    list-style: none;
+    z-index: 2;
+    font-size: 20px;
+    color: white;
+    transform: translate(45%,-100%)
+}
+
+
+.contact .location {
+    width: 20%;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 0 150px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    transform: translate(0,0);
+}
+
+
+.contact input {
+    position: relative;
+    background-color:  white;
+    border-radius: 3px;
+    font-size: 20px ;
+    font-weight: 400;
+    padding: 5px 10px;
+    transform: translate(284%,-77%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact .copy {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: white;
+}
