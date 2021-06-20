@@ -67,6 +67,9 @@ body{
     text-decoration: none;
     color: blue;
 }
+.container .head a:hover {
+    color: rgb(26, 24, 24);
+}
 .text .text1 {
     position: absolute; 
     top: 50%;
@@ -119,11 +122,17 @@ body{
     padding: 10px;
 
 }
+.part1 .introduction .btn{/* button */
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
 .introduction span {
     color: blue;
 }
 .introduction a {
-    font-size: 20px;
+    font-size: 25px;
     color:white;
     text-decoration: none;
     background-color: blue;
@@ -141,7 +150,7 @@ body{
 .part2 {
     display: flex;
     position: relative;
-    text-align: left;
+   /* text-align: left; */
     text-decoration: none;
     flex-direction: row; 
     justify-content: center;
@@ -156,13 +165,12 @@ body{
     justify-content: center;
     margin-bottom: 20px;
 }
-.part2 span {
+.part2 h2 {
     text-align: center;
-
     color: blue;
     font-size: 20px;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .part2 p {
     text-align:left;
@@ -216,7 +224,7 @@ body{
     background-image: url(gallery-img-04.jpg);
 }
 .pic .pic5 {
-    background-image: url(ssgallery-img-05.jpg);
+    background-image: url(gallery-img-05.jpg);
 }
 
 
@@ -230,7 +238,6 @@ body{
     position: relative;
     justify-content: space-between;
 }
-
 .contact h1 {
     width: 20%;
     position: relative;
@@ -246,7 +253,6 @@ body{
     font-size: 30px;
     color: white;
 }
-
 .contact hr {
     border: 1px solid white;
     left: 150px;
@@ -270,7 +276,6 @@ body{
     height: 5px;
     background-color: white;
 }
-
 .contact p {
     font-size: 17px;
     color: white;
@@ -310,8 +315,6 @@ body{
     color: white;
     transform: translate(45%,-100%)
 }
-
-
 .contact .location {
     width: 20%;
     position: relative;
@@ -325,29 +328,14 @@ body{
     color: white;
     transform: translate(0,0);
 }
-
-
-.contact input {
+.contact .inp {
     position: relative;
-    background-color:  white;
     border-radius: 3px;
     font-size: 20px ;
     font-weight: 400;
     padding: 5px 10px;
-    transform: translate(284%,-77%);
+    transform: translate(55%,-77%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .contact .copy {
     display: inline-block;
     position: absolute;
